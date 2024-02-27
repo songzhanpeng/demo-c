@@ -1,9 +1,9 @@
 const ffi = require('ffi-napi');
 
 // 载入共享对象文件
-const hello = ffi.Library('./hello.so', {
-    'hello': ['void', []]
+const hello = ffi.Library('./hello', {
+    'hello': ['void', ['string']]
 });
 
-// 调用 hello 函数
-hello.hello();
+// 传入参数调用 hello 函数
+hello.hello('Alice');

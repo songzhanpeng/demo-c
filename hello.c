@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-void hello() {
-    printf("Hello, World!\n");
+void hello(const char *name) {
+    printf("Hello, %s!\n", name);
 }
