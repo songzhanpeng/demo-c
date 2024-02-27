@@ -12,7 +12,8 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /usr/src/app
 
 # 将本地文件复制到容器中
-COPY hello.c .
+# COPY hello.c .
+COPY . .
 
 # 编译生成共享对象文件
 RUN gcc -shared -fPIC -o hello.so hello.c
