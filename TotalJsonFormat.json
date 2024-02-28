@@ -1,0 +1,66 @@
+{
+    "Attribute": [
+        {
+            "DataAlignment": "8",
+            "ByteOrderEnum": "BYTE_ORDER_BIG_ENDIAN",
+            "ArrayLengthFieldSize": "32",
+            "VectorLengthFieldSize": "32",
+            "StringLengthFieldSize": "32",
+            "StructLengthFieldSize": "0",
+            "UnionLengthFieldSize": "32",
+            "UnionTypeSelectorFieldSize": "32",
+            "StringEncoding": "UTF8"
+        }
+    ],
+    "Services": [
+        {
+            "ServiceID": "41092",
+            "ServiceName": "gameservice",
+            "Methods": [],
+            "Events": [
+                {
+                    "EventID": "32769",
+                    "EventName": "notifyCurrentScoreRanking",
+                    "Params": [
+                        {
+                            "MethodType": "event",
+                            "ParamsDetails": [
+                                {
+                                    "ParamName": "Struct_score_ranking",
+                                    "ParamType": "STRUCTURE",
+                                    "Value": "",
+                                    "SubParams": [
+                                        {
+                                            "ParamName": "score",
+                                            "ParamType": "int32_t",
+                                            "Value": "",
+                                            "SubParams": []
+                                        },
+                                        {
+                                            "ParamName": "ranking",
+                                            "ParamType": "int32_t",
+                                            "Value": "",
+                                            "SubParams": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Fields": [],
+            "Attribute": {
+                "DataAlignment": "8",
+                "ByteOrderEnum": "BYTE_ORDER_BIG_ENDIAN",
+                "ArrayLengthFieldSize": "32",
+                "VectorLengthFieldSize": "32",
+                "StringLengthFieldSize": "32",
+                "StructLengthFieldSize": "0",
+                "UnionLengthFieldSize": "32",
+                "UnionTypeSelectorFieldSize": "32",
+                "StringEncoding": "UTF8"
+            }
+        }
+    ]
+}

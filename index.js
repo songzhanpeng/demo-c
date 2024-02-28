@@ -13,6 +13,7 @@ class FFIWrapper {
 
     // 加载 JSON 文件并解析
     loadFormatJson(jsonPath) {
+        console.log("🚀 ~ FFIWrapper ~ loadFormatJson ~ jsonPath:", jsonPath)
         this.lib.loadFormatJson(jsonPath);
     }
 
