@@ -27,4 +27,4 @@ class FFIWrapper {
 
 
 const ffiWrapper = new FFIWrapper()
-ffiWrapper.loadFormatJson('./data.json')
+ffiWrapper.loadFormatJson('./TotalJsonFormat.json')
