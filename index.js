@@ -6,4 +6,6 @@ const parser = ffi.Library("./x84_64/libsomeip_parser_ics.so", {
   'deserializebyMethodID': ['string', ['int', 'int', 'int', 'uint8*', 'string*']]
 });
 
+console.log("Before calling loadFormatJson");
 parser.loadFormatJson("./TotalJsonFormat.json");
+console.log("After calling loadFormatJson");
